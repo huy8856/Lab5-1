@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Restore dependencies
-      run: dotnet restore huy8856/Lab5-1/namnam/namnam.sln
+      run: dotnet restore ./Lab5-1/namnam/namnam.sln
     - name: Build
       run: dotnet build --no-restore
     - name: Test
